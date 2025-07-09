@@ -1,0 +1,9 @@
+services:
+  - type: worker
+    name: tics-bot
+    env: python
+    buildCommand: ""
+    startCommand: bash start.sh
+    envVars:
+      - key: BOT_TOKEN
+        value: SEU_TOKEN_DO_BOT_AQUI
